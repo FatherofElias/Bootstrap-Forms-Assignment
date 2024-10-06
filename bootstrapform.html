@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><!--Assignment 1-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,33 +10,33 @@
 <body><!--Task 1 Multi Column Form-->
     <div class="container mt-5">
         <form>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="inputFirstName">First Name</label>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="inputFirstName" class="form-label">First Name</label>
                     <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
                 </div>
-                <div class="form-group col-md-6">
-                    <label for="inputLastName">Last Name</label>
+                <div class="col-md-6">
+                    <label for="inputLastName" class="form-label">Last Name</label>
                     <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
                 </div>
             </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="inputEmail">Email</label>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="inputEmail" class="form-label">Email</label>
                     <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                 </div>
-                <div class="form-group col-md-6">
-                    <label for="inputPhone">Phone</label>
+                <div class="col-md-6">
+                    <label for="inputPhone" class="form-label">Phone</label>
                     <input type="tel" class="form-control" id="inputPhone" placeholder="Phone">
                 </div>
             </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="inputAddress">Address</label>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="inputAddress" class="form-label">Address</label>
                     <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                 </div>
-                <div class="form-group col-md-6">
-                    <label for="inputCity">City</label>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
                     <input type="text" class="form-control" id="inputCity" placeholder="City">
                 </div>
             </div>
@@ -55,6 +55,35 @@
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+</div>
+<!--Task 3 Stacked Form Layout-->
+<form class="mt-5">
+    <div class="mb-3">
+        <label for="stackedFormFirstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="stackedFormFirstName" placeholder="First Name">
+    </div>
+    <div class="mb-3">
+        <label for="stackedFormLastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="stackedFormLastName" placeholder="Last Name">
+    </div>
+    <div class="mb-3">
+        <label for="stackedFormEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="stackedFormEmail" placeholder="Email">
+    </div>
+    <div class="mb-3">
+        <label for="stackedFormPhone" class="form-label">Phone</label>
+        <input type="tel" class="form-control" id="stackedFormPhone" placeholder="Phone">
+    </div>
+    <div class="mb-3">
+        <label for="stackedFormAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="stackedFormAddress" placeholder="1234 Main St">
+    </div>
+    <div class="mb-3">
+        <label for="stackedFormCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="stackedFormCity" placeholder="City">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 </div>
 
 
